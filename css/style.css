@@ -1,0 +1,164 @@
+/*HEXRGBHSVCMYK#26262638 38 380 0 150 0 0 85
+HEXRGBHSVCMYK#083d778 61 119211 93 4793 49 0 53
+HEXRGBHSVCMYK#ff6663255 102 991 61 1000 60 61 0
+HEXRGBHSVCMYK#f4d35e244 211 9447 61 960 14 61 4
+HEXRGBHSVCMYK#f7ede2247 237 22631 9 970 4 9 3
+coolors.co/262626-083d77-ff6663-f4d35e-f7ede2*/
+
+/*At least 5 comments on the CSS stylesheet.*/
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height:1.5;
+    padding:0;
+    margin:0; /*changed this from 0 t0 80 but it was global*/
+    background-color:#f7ede2;
+}
+
+/*Global*/
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    margin:0;
+    /*padding:0;   changed to 20px*/
+    padding: 20px;
+    
+}
+
+ul.a {
+    list-style-type: square;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    line-height:1.5;
+    padding:20;
+    margin:0;
+    color:#F7EDE2;
+    
+    /*background-color:#f7ede2;*/
+}
+
+h2{
+    
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color:#f4d35e;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color:#f4d35e;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8px;
+    line-height:1.0;
+    padding:20;
+    margin:0;
+    color:#F7EDE2;
+    /*background-color:#f7ede2;*/
+}
+
+
+
+/*header*/
+header{
+    background:#f4d35e;
+    color:#F7EDE2;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#083d77 3px solid;
+}
+
+header a{
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+/*add hover state at around 32:30*/
+
+
+/* Showcase */
+#showcase{
+    min-height: 400px;
+    /*background:url('../images/rainier-ridao-1067999-unsplash.jpg') no-repeat*/
+    
+    background:url('../images/robert-collins-333411-unsplash-cropped.jpg' )  no-repeat 0 0;
+    background-size: 100% auto;
+    background-position: center bottom;
+    text-align: center;
+    color: #F7EDE2;}
+    
+    #showcase h1{
+        margin-top: 10px;
+        font-size: 45px;
+        margin-bottom: 430px
+    }
+    
+    #showcase p{
+        font-size: 20px
+    }
+    
+ /* || main layout */
+
+main {
+  display: flex;
+}
+
+article {
+  flex: 4;
+  margin: 5px;    /*added in class to set text back*/
+  padding: 10px; /*added in class to set text back*/
+}
+
+aside {
+  flex: 1;
+  margin-left: 10px;
+      
+}
+
+aside li {
+  padding-bottom: 10px;
+}
+
+
+footer{
+    padding:10px;
+    margin-top: 10px;
+    color:#f4d35e;
+    /*background-color:#ff6663;*/
+    background-color:#083d77;
+    text-align: center;
+    font-size:10px;
+    }
