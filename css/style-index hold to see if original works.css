@@ -17,11 +17,7 @@ body{
 }
 
 /*Global*/
-.container{
-    width:80%;
-    margin:auto;
-    overflow:hidden;
-}
+.container
 
 ul{
     margin:0;
