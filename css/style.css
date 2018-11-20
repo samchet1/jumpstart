@@ -23,7 +23,7 @@ body{
     overflow:hidden;
 }
 
-p, ul {
+p {
     padding: 0;
     margin: 0;
     
@@ -34,13 +34,12 @@ ul{
     /*padding:0;   changed to 20px*/
     padding: 0px;
     line-height:1.25;
-    list-style-position: inside;
     
 }
 
 li{
     list-style-position: inside;
-    font-size: .9rem;
+    /*font-size: .9rem;*/
     
 }
 
