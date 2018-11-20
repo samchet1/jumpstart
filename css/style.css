@@ -78,6 +78,9 @@ h4{
     /*background-color:#f7ede2;*/
 }
 
+img {
+    float: right;
+}
 
 /*header*/
 header{
