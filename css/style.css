@@ -9,7 +9,7 @@ coolors.co/262626-083d77-ff6663-f4d35e-f7ede2*/
 body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     line-height:1.5;
     padding:0;
     margin:0; /*changed this from 0 t0 80 but it was global*/
@@ -27,11 +27,8 @@ ul{
     margin:0;
     /*padding:0;   changed to 20px*/
     padding: 20px;
+    line-height:1.25;
     
-}
-
-ul.a {
-    list-style-type: square;
 }
 
 h1{
