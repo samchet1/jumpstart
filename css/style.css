@@ -151,8 +151,8 @@ main {
 
 article {
   flex: 4;
-  margin: 5px;    /*added in class to set text back*/
-  padding: 10px; /*added in class to set text back*/
+  margin: 5px;    
+  padding: 10px; 
 }
 
 aside {
