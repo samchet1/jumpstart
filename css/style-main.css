@@ -23,15 +23,10 @@ body{
     overflow:hidden;
 }
 
-p, ul {
-    padding: 0;
-    margin: 0;
-}
-
 ul{
     margin:0;
     /*padding:0;   changed to 20px*/
-    padding: 0px;
+    padding: 20px;
     line-height:1.25;
     list-style-position: inside;
     
@@ -77,6 +72,7 @@ h4{
     color:#F7EDE2;
     /*background-color:#f7ede2;*/
 }
+
 
 
 /*header*/
