@@ -33,10 +33,6 @@ ul{
 }
 
 li{
-    margin:0;
-    /*padding:0;   changed to 20px*/
-    padding: 20px;
-    line-height:1.25;
     list-style-position: inside;
     
 }
