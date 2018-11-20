@@ -9,7 +9,7 @@ coolors.co/262626-083d77-ff6663-f4d35e-f7ede2*/
 body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     line-height:1.5;
     padding:0;
     margin:0; /*changed this from 0 t0 80 but it was global*/
